@@ -12,8 +12,7 @@ thin client that talks to it over HTTP.
 
 ## What you need
 
-- Python 3.10+ (for the packaged build, no additional
-  Python packages are required)
+- No Python required. The server is a standalone binary.
 - A writable directory for the SQLite database
 
 ## Unpack the server

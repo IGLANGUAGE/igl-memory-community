@@ -22,8 +22,7 @@ examples.
 - Not a vector database.
 - Not a replacement for your agent framework.
 - Not open source. The SDK is provided as source so you
-  can inspect what the client sends. The server is
-  provided as a self-contained package.
+  can inspect what the client sends. The server is distributed as a compiled binary without source code.
 
 ## Quick start
 
@@ -39,8 +38,7 @@ in `server/`:
 ```
 cd server
 unzip igl-memory-server.zip
-cd igl-memory-server
-pip install -r requirements.txt
+cd igl-binary-package
 ./run.sh                   # on Linux / macOS
 run.bat                    # on Windows
 ```
@@ -49,8 +47,7 @@ Option B — if you downloaded the release, unzip it in any
 directory:
 ```
 unzip igl-memory-server.zip
-cd igl-memory-server
-pip install -r requirements.txt
+cd igl-binary-package
 ./run.sh                   # on Linux / macOS
 run.bat                    # on Windows
 ```
